@@ -1,0 +1,166 @@
+/* ---------------------------
+   RESET & GLOBAL STYLES
+--------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY BACKGROUND */
+body {
+  background-color: #fafafa; 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #262626;
+}
+
+/* ---------------------------
+   MAIN CONTAINER
+--------------------------- */
+.container {
+  width: 90%;
+  max-width: 350px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+}
+
+/* ---------------------------
+   INSTAGRAM LOGO IMAGE
+--------------------------- */
+.logo-wrapper {
+  margin-bottom: 20px;
+}
+
+.logo-image {
+  max-width: 55%;
+  height: auto;
+}
+
+/* ---------------------------
+   FACEBOOK LOGIN BUTTON (IMAGE)
+--------------------------- */
+.fb-login-link {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.fb-button-image {
+  max-width: 90%;
+  height: auto;
+}
+
+/* ---------------------------
+   OR SEPARATOR
+--------------------------- */
+.or-container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 20px;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+.or-text {
+  padding: 0 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #8e8e8e;
+}
+
+/* ---------------------------
+   LOGIN FORM
+--------------------------- */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+/* ---------------------------
+   FORGOT PASSWORD
+--------------------------- */
+.forgot-password {
+  text-align: right;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #00376b;
+  text-decoration: none;
+}
+
+/* ---------------------------
+   LOG IN BUTTON
+--------------------------- */
+.login-btn {
+  background-color: #0095f6;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* ---------------------------
+   SIGN UP BOX
+--------------------------- */
+.signup-box {
+  border: 1px solid #dbdbdb;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.signup-box p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.signup-box a {
+  color: #0095f6;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* ---------------------------
+   FOOTER
+--------------------------- */
+.footer {
+  font-size: 12px;
+  color: #999;
+  line-height: 1.4;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.footer a {
+  color: #999;
+  text-decoration: none;
+}
+
+/* ---------------------------
+   RESPONSIVE DESIGN
+--------------------------- */
+@media (max-width: 480px) {
+  .container {
+    margin: 20px auto;
+    padding: 20px 10px;
+  }
+}
